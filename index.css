@@ -138,7 +138,11 @@ ul li{
 
 }
 .mb-icon-menu span{
-pointer;    display: block;
+    width: 23px;
+    height: 3px;
+    background-color: #d29f34;
+    margin: 5px 0;
+    display: block;
 }
 .benefit {
 	padding: 60px 0;
