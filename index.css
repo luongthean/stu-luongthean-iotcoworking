@@ -138,11 +138,7 @@ ul li{
 
 }
 .mb-icon-menu span{
-    width: 23px;
-    height: 3px;
-    background-color: #d29f34;
-    margin: 5px 0;
-    display: block;
+pointer;    display: block;
 }
 .benefit {
 	padding: 60px 0;
@@ -164,8 +160,9 @@ ul li{
     font-weight: 700;
     margin-right: 3.125rem;
     font-family: 'UTMNeutra';
+    cursor: pointer;
 }
-.b-title h2:first-child a{
+.b-title h2.active a{
     color: #145c90;
 }
 .b-title h2:hover a{
@@ -217,6 +214,12 @@ ul li{
 }
 .content img{
 	width: 50px;
+}
+.tab-content{
+	display: none;
+}
+.c-active {
+	display: flex;
 }
 .event {
 	padding: 60px 0;
